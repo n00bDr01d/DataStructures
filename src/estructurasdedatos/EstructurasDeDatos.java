@@ -5,6 +5,8 @@
  */
 package estructurasdedatos;
 
+import estructurasdedatos.Lista.ListaEnlazada;
+
 /**
  *
  * @author oscar
@@ -16,6 +18,12 @@ public class EstructurasDeDatos {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        ListaEnlazada lista = new ListaEnlazada();
+        lista.insertarNodo(1);
+        lista.insertarNodo(2);
+        lista.insertarNodo(3);
+        lista.insertarNodo("oscar");
+        System.out.println(lista.toString());
     }
     
 }

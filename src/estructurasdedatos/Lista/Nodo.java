@@ -7,7 +7,7 @@ package estructurasdedatos.Lista;
 
 /**
  *
- * @author oscar
+ * @author n00bDr01d
  */
 public class Nodo {
     //Campos de la clase Nodo
@@ -18,7 +18,8 @@ public class Nodo {
      * Constructor de la clase nodo 
      */
     public Nodo() {
-        
+        enlaceSiguente = null;
+        dato= null;
     }
     
     /**
@@ -59,6 +60,4 @@ public class Nodo {
         return "Nodo{" + "dato=" + dato + '}';
     }
 
-    
-    
 }
